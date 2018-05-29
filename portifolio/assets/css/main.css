@@ -1,33 +1,44 @@
+/*Cabecalho*/
+
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Great Vibes', cursive, 'Raleway', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
-    background-image: url("../img/topo.jpg");
+    /*background-image: url("../img/topo.jpg");*/
+    background-color: burlywood;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: left;
+    display: flex;
     height: 5rem;
+    margin: 0.5px;
 }
 
+
+/*Navegacao*/
+
 #top {
-    width: 35%;
+    width: 100%;
 }
 
 #top ul {
-    opacity: 1;
-    width: 100%;
-    height: 100%;
+    margin: 2rem;
+    padding: 0.5rem;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: left;
 }
 
 .MenuOpcaoHeader {
-    font-weight: bold;
-    font-size: 1.3rem;
-    color: #000000;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    margin: 2px;
+    font-size: 2rem;
+    color: #4a0479;
 }
 
 .MenuOpcaoHeader a {
@@ -43,3 +54,104 @@ hover {
 
 
 /*Fim header*/
+
+
+/*Corpo*/
+
+.colum1 {
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1 solid salmon;
+}
+
+.colum1 p {
+    font-size: 1rem;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Raleway', sans-serif;
+    margin: 1rem;
+}
+
+.colum2 {
+    justify-content: space-between;
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1 solid salmon;
+}
+
+.colum2 p {
+    font-size: 1rem;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+#home {
+    font-size: 3rem;
+    font-style: initial;
+    padding: 1rem;
+    margin: 1rem;
+    color: #000000;
+    font-family: 'Great Vibes', cursive;
+}
+
+#sobre {
+    font-size: 3rem;
+    font-style: initial;
+    padding: 0.1rem;
+    margin: 1rem;
+    color: #000000;
+    font-family: 'Great Vibes', cursive;
+}
+
+.colum3 {
+    justify-content: space-between;
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1 solid salmon;
+}
+
+.colum3 p {
+    font-size: 1rem;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 5rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
+#projetos {
+    font-size: 3rem;
+    font-style: initial;
+    padding: 1rem;
+    margin: 1rem;
+    color: #000000;
+    font-family: 'Great Vibes', cursive;
+}
