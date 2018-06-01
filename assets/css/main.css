@@ -1,0 +1,170 @@
+/*header*/
+
+
+/*Se der diferença criar um clearfix*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+    height: auto;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url(../img/home.jpg);
+    width: 100%;
+    height: 475px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*navegacao*/
+
+.links {
+    float: right;
+    margin: 35px 0 0;
+}
+
+nav,
+.social {
+    padding-bottom: 5rem;
+    display: inline-block;
+}
+
+
+/*nav ul {}*/
+
+ul li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    list-style: none;
+}
+
+li a {
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+
+.social li {
+    display: inline-block;
+    margin: 0 5px 0 0;
+}
+
+.social li a {
+    font-size: 30px;
+    display: block;
+    color: white;
+    margin: 0 20px 0 0;
+    width: 25px;
+    height: 25px;
+    line-height: 12px;
+    text-align: center;
+}
+
+
+/*fim nav */
+
+h1 {
+    color: white;
+    clear: both;
+    margin: 190px auto 30px auto;
+    border: 3px solid white;
+    padding: 20px;
+    display: table;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+header p {
+    color: white;
+    text-align: center;
+    margin: 2px;
+    text-transform: uppercase;
+}
+
+h2 {
+    padding-top: 8rem;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+    display: inline;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+
+/* fim header*/
+
+
+/* fazer main*/
+
+section {
+    width: 100%;
+    height: 600px;
+    margin: -1px;
+    padding: 1px;
+    background-color: black;
+    /* gradiente background-image: linear-gradient(50deg, salmon 25%, pink 35%, white 34%, pink 25%, salmon 100%);*/
+}
+
+.itens {
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem;
+    padding: 4rem;
+    font-size: 4rem;
+    color: wheat;
+}
+
+.texto {
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: bold;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.btn-pink,
+.btn a:link {
+    background-color: wheat;
+    color: rgb(241, 69, 69);
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*fim main*/
+
+footer {
+    width: auto;
+    min-height: auto;
+    background-image: url(../img/footer.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+}
+
+footer p {
+    padding: 3rem;
+    text-align: center;
+    color: beige;
+}
